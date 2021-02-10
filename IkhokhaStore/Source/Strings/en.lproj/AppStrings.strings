@@ -1,0 +1,15 @@
+/* 
+  AppStrings.strings
+  IkhokhaStore
+
+  Created by Gontse Ranoto on 2021/02/08.
+  
+*/
+
+
+"HomeScreenTitle" = "Home";
+"SignInScreenTitle" = "Sign In";
+"CartScreenTitle" = "Cart";
+"ScannerScreenTitle" = "Scanner";
+"LogoutText" = "logout";
+

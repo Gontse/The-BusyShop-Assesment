@@ -1,0 +1,42 @@
+{
+  "APL883" : {
+    "description" : "Apple",
+    "image" : "apple.jpg",
+    "price" : 5.0
+  },
+  "BAN258" : {
+    "description" : "Banana",
+    "image" : "banana.jpg",
+    "price" : 2.0
+  },
+  "COC378" : {
+    "description" : "Coconut",
+    "image" : "coconut.jpg",
+    "price" : 14.0
+  },
+  "GPF208" : {
+    "description" : "Grapefruit",
+    "image" : "grapefruit.jpg",
+    "price" : 3.5
+  },
+  "ORN750" : {
+    "description" : "Orange",
+    "image" : "orange.jpg",
+    "price" : 4.75
+  },
+  "PER478" : {
+    "description" : "Pear",
+    "image" : "pear.jpg",
+    "price" : 5.0
+  },
+  "SBR101" : {
+    "description" : "Strawberry",
+    "image" : "strawberry.jpg",
+    "price" : 0.5
+  },
+  "WML999" : {
+    "description" : "Watermelon",
+    "image" : "watermelon.jpg",
+    "price" : 38.0
+  }
+}

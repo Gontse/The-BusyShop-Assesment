@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38059C76F0E04D750ABB5F7B /* Pods_IkhokhaStoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDB2B9AD28F4A09A613961C /* Pods_IkhokhaStoreTests.framework */; };
+		9019609925D30CA800AFEA64 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019609825D30CA800AFEA64 /* TableView.swift */; };
+		9019609E25D3110C00AFEA64 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9019609D25D3110C00AFEA64 /* Double.swift */; };
+		901960A425D3162D00AFEA64 /* ButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901960A325D3162D00AFEA64 /* ButtonTableViewCell.xib */; };
+		901960B425D3189300AFEA64 /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901960A925D3177600AFEA64 /* ButtonTableViewCell.swift */; };
+		901960B925D3190600AFEA64 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901960B825D3190600AFEA64 /* ProductItem.swift */; };
+		901960C125D31FDA00AFEA64 /* ItemDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901960C025D31FDA00AFEA64 /* ItemDetailsViewModel.swift */; };
+		9033066725CFFE14001393F1 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033066625CFFE14001393F1 /* CartTableViewController.swift */; };
+		9033066C25CFFEF2001393F1 /* ImageTitleDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9033066B25CFFEF2001393F1 /* ImageTitleDescriptionTableViewCell.xib */; };
+		90429E4425CB13B400F7E4D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90429E4325CB13B400F7E4D8 /* AppDelegate.swift */; };
+		90429E4E25CB140D00F7E4D8 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90429E4D25CB140D00F7E4D8 /* SignInViewController.swift */; };
+		905FBFCE25CFC39E0079022B /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905FBFCD25CFC39E0079022B /* ImageTableViewCell.swift */; };
+		905FBFD725CFC3C10079022B /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905FBFD625CFC3C10079022B /* ImageTableViewCell.xib */; };
+		905FBFE225CFC55B0079022B /* TitleDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905FBFE125CFC55B0079022B /* TitleDetailTableViewCell.swift */; };
+		905FBFE725CFC5740079022B /* TitleDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905FBFE625CFC5740079022B /* TitleDetailTableViewCell.xib */; };
+		9062096825D19FC40005A961 /* ItemDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905FBFF025CFCA300079022B /* ItemDetailsTableViewController.swift */; };
+		9062097025D1A2590005A961 /* ProductsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9062096F25D1A2580005A961 /* ProductsRepository.swift */; };
+		9062097525D1A30A0005A961 /* IProductsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9062097425D1A30A0005A961 /* IProductsRepository.swift */; };
+		9062097D25D1B1AD0005A961 /* IMainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9062097C25D1B1AD0005A961 /* IMainCoordinator.swift */; };
+		906209B725D210FF0005A961 /* SpecialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02A9925D00AC800D9E340 /* SpecialsViewController.swift */; };
+		906209BB25D211030005A961 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02A9E25D00AD900D9E340 /* ProductsViewController.swift */; };
+		906209C025D212E60005A961 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906209BF25D212E60005A961 /* ScanViewModel.swift */; };
+		906209D725D226960005A961 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906209D625D226960005A961 /* CoreDataManager.swift */; };
+		90620A1325D22A840005A961 /* Products.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90620A1125D22A840005A961 /* Products.xcdatamodeld */; };
+		90620A9225D230DC0005A961 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90620A9125D230DC0005A961 /* CartViewModel.swift */; };
+		907B882225CB0582008E7D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907B882025CB0582008E7D0B /* Main.storyboard */; };
+		907B882425CB0585008E7D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907B882325CB0585008E7D0B /* Assets.xcassets */; };
+		907B882725CB0585008E7D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907B882525CB0585008E7D0B /* LaunchScreen.storyboard */; };
+		907B883225CB0586008E7D0B /* StoryBoardableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907B883125CB0586008E7D0B /* StoryBoardableTests.swift */; };
+		907B883D25CB0586008E7D0B /* IkhokhaStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907B883C25CB0586008E7D0B /* IkhokhaStoreUITests.swift */; };
+		907B885225CB0B3D008E7D0B /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907B885125CB0B3D008E7D0B /* Storyboardable.swift */; };
+		9080403B25CB101600C20A70 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080403A25CB101600C20A70 /* MainCoordinator.swift */; };
+		90C02A8B25D0071700D9E340 /* MasterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02A8A25D0071700D9E340 /* MasterTabBarController.swift */; };
+		90C02A9025D00A0A00D9E340 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02A8F25D00A0A00D9E340 /* HomeViewController.swift */; };
+		90C02A9525D00A1B00D9E340 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02A9425D00A1B00D9E340 /* ScanViewController.swift */; };
+		90C02AA725D0376A00D9E340 /* ImageTitleDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02AA625D0376A00D9E340 /* ImageTitleDescriptionTableViewCell.swift */; };
+		90C02AD325D17CD800D9E340 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90C02AD225D17CD800D9E340 /* GoogleService-Info.plist */; };
+		90C02AFA25D1853F00D9E340 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02AF925D1853F00D9E340 /* Constants.swift */; };
+		90C02B0725D199E700D9E340 /* AppStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90C02B0925D199E700D9E340 /* AppStrings.strings */; };
+		90C02B0E25D19ABA00D9E340 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C02B0D25D19ABA00D9E340 /* Globals.swift */; };
+		90DBEE7C25D38648001F6385 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBEE7B25D38648001F6385 /* StringTests.swift */; };
+		90DBEE8725D38C8F001F6385 /* ConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBEE8625D38C8F001F6385 /* ConstantsTests.swift */; };
+		90DBEE8C25D38DE2001F6385 /* CartViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBEE8B25D38DE2001F6385 /* CartViewModelTests.swift */; };
+		90DBEE9125D39419001F6385 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 90DBEE9025D39419001F6385 /* data.json */; };
+		90DBEEA525D39489001F6385 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901960B825D3190600AFEA64 /* ProductItem.swift */; };
+		90DBEECA25D397C6001F6385 /* ProductsRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBEE9D25D39448001F6385 /* ProductsRepositoryMock.swift */; };
+		90DBEED725D39B18001F6385 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DBEED625D39B18001F6385 /* Objects.swift */; };
+		A94EB415D874E6B26D72B8B6 /* Pods_IkhokhaStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C70C69580410F64ADA0FF /* Pods_IkhokhaStore.framework */; };
+		B74F48463A7A4F32E0FD04A3 /* Pods_IkhokhaStore_IkhokhaStoreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5D8D6524E88A0E8405564 /* Pods_IkhokhaStore_IkhokhaStoreUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		907B882E25CB0586008E7D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907B880F25CB0582008E7D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907B881625CB0582008E7D0B;
+			remoteInfo = IkhokhaStore;
+		};
+		907B883925CB0586008E7D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 907B880F25CB0582008E7D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 907B881625CB0582008E7D0B;
+			remoteInfo = IkhokhaStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FDB2B9AD28F4A09A613961C /* Pods_IkhokhaStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IkhokhaStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C5D8D6524E88A0E8405564 /* Pods_IkhokhaStore_IkhokhaStoreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IkhokhaStore_IkhokhaStoreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D8E15E555516A6D3E60391 /* Pods-IkhokhaStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkhokhaStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-IkhokhaStoreTests/Pods-IkhokhaStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80566F876F00BF2BACCD5750 /* Pods-IkhokhaStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkhokhaStoreTests.release.xcconfig"; path = "Target Support Files/Pods-IkhokhaStoreTests/Pods-IkhokhaStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		861C70C69580410F64ADA0FF /* Pods_IkhokhaStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IkhokhaStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9019609825D30CA800AFEA64 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		9019609D25D3110C00AFEA64 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		901960A325D3162D00AFEA64 /* ButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonTableViewCell.xib; sourceTree = "<group>"; };
+		901960A925D3177600AFEA64 /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		901960B825D3190600AFEA64 /* ProductItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductItem.swift; path = IkhokhaStore/Source/Model/ProductItem.swift; sourceTree = SOURCE_ROOT; };
+		901960C025D31FDA00AFEA64 /* ItemDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewModel.swift; sourceTree = "<group>"; };
+		9033066625CFFE14001393F1 /* CartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		9033066B25CFFEF2001393F1 /* ImageTitleDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTitleDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		90429E4325CB13B400F7E4D8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = IkhokhaStore/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		90429E4D25CB140D00F7E4D8 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = IkhokhaStore/SignInViewController.swift; sourceTree = SOURCE_ROOT; };
+		905FBFCD25CFC39E0079022B /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		905FBFD625CFC3C10079022B /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		905FBFE125CFC55B0079022B /* TitleDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetailTableViewCell.swift; sourceTree = "<group>"; };
+		905FBFE625CFC5740079022B /* TitleDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleDetailTableViewCell.xib; sourceTree = "<group>"; };
+		905FBFF025CFCA300079022B /* ItemDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsTableViewController.swift; sourceTree = "<group>"; };
+		9062096F25D1A2580005A961 /* ProductsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsRepository.swift; sourceTree = "<group>"; };
+		9062097425D1A30A0005A961 /* IProductsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IProductsRepository.swift; sourceTree = "<group>"; };
+		9062097C25D1B1AD0005A961 /* IMainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMainCoordinator.swift; sourceTree = "<group>"; };
+		906209BF25D212E60005A961 /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		906209D625D226960005A961 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		90620A1225D22A840005A961 /* Products.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Products.xcdatamodel; sourceTree = "<group>"; };
+		90620A9125D230DC0005A961 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		907B881725CB0582008E7D0B /* IkhokhaStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IkhokhaStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		907B882125CB0582008E7D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		907B882325CB0585008E7D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		907B882625CB0585008E7D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		907B882825CB0585008E7D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907B882D25CB0586008E7D0B /* IkhokhaStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IkhokhaStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907B883125CB0586008E7D0B /* StoryBoardableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardableTests.swift; sourceTree = "<group>"; };
+		907B883325CB0586008E7D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907B883825CB0586008E7D0B /* IkhokhaStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IkhokhaStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		907B883C25CB0586008E7D0B /* IkhokhaStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkhokhaStoreUITests.swift; sourceTree = "<group>"; };
+		907B883E25CB0586008E7D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907B885125CB0B3D008E7D0B /* Storyboardable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		9080403A25CB101600C20A70 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		90C02A8A25D0071700D9E340 /* MasterTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTabBarController.swift; sourceTree = "<group>"; };
+		90C02A8F25D00A0A00D9E340 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		90C02A9425D00A1B00D9E340 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		90C02A9925D00AC800D9E340 /* SpecialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialsViewController.swift; sourceTree = "<group>"; };
+		90C02A9E25D00AD900D9E340 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		90C02AA625D0376A00D9E340 /* ImageTitleDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTitleDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		90C02AD225D17CD800D9E340 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		90C02AF925D1853F00D9E340 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		90C02B0825D199E700D9E340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppStrings.strings; sourceTree = "<group>"; };
+		90C02B0D25D19ABA00D9E340 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		90DBEE7B25D38648001F6385 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
+		90DBEE8625D38C8F001F6385 /* ConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTests.swift; sourceTree = "<group>"; };
+		90DBEE8B25D38DE2001F6385 /* CartViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModelTests.swift; sourceTree = "<group>"; };
+		90DBEE9025D39419001F6385 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		90DBEE9D25D39448001F6385 /* ProductsRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsRepositoryMock.swift; sourceTree = "<group>"; };
+		90DBEED625D39B18001F6385 /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		97F06CD5188B8BF50F6972E9 /* Pods-IkhokhaStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkhokhaStore.debug.xcconfig"; path = "Target Support Files/Pods-IkhokhaStore/Pods-IkhokhaStore.debug.xcconfig"; sourceTree = "<group>"; };
+		C08A9218E99E38A6CA43E334 /* Pods-IkhokhaStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkhokhaStore.release.xcconfig"; path = "Target Support Files/Pods-IkhokhaStore/Pods-IkhokhaStore.release.xcconfig"; sourceTree = "<group>"; };
+		C9052FDC2C7F562E35128A0B /* Pods-IkhokhaStore-IkhokhaStoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkhokhaStore-IkhokhaStoreUITests.debug.xcconfig"; path = "Target Support Files/Pods-IkhokhaStore-IkhokhaStoreUITests/Pods-IkhokhaStore-IkhokhaStoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC91DF7EA1B3485B4E1504C4 /* Pods-IkhokhaStore-IkhokhaStoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IkhokhaStore-IkhokhaStoreUITests.release.xcconfig"; path = "Target Support Files/Pods-IkhokhaStore-IkhokhaStoreUITests/Pods-IkhokhaStore-IkhokhaStoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		907B881425CB0582008E7D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94EB415D874E6B26D72B8B6 /* Pods_IkhokhaStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907B882A25CB0586008E7D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38059C76F0E04D750ABB5F7B /* Pods_IkhokhaStoreTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907B883525CB0586008E7D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74F48463A7A4F32E0FD04A3 /* Pods_IkhokhaStore_IkhokhaStoreUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126DEC6B3FE41A43DE8307F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861C70C69580410F64ADA0FF /* Pods_IkhokhaStore.framework */,
+				14C5D8D6524E88A0E8405564 /* Pods_IkhokhaStore_IkhokhaStoreUITests.framework */,
+				0FDB2B9AD28F4A09A613961C /* Pods_IkhokhaStoreTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86D4CA4C7DCC440E5DB5300F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F06CD5188B8BF50F6972E9 /* Pods-IkhokhaStore.debug.xcconfig */,
+				C08A9218E99E38A6CA43E334 /* Pods-IkhokhaStore.release.xcconfig */,
+				C9052FDC2C7F562E35128A0B /* Pods-IkhokhaStore-IkhokhaStoreUITests.debug.xcconfig */,
+				EC91DF7EA1B3485B4E1504C4 /* Pods-IkhokhaStore-IkhokhaStoreUITests.release.xcconfig */,
+				69D8E15E555516A6D3E60391 /* Pods-IkhokhaStoreTests.debug.xcconfig */,
+				80566F876F00BF2BACCD5750 /* Pods-IkhokhaStoreTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9019609725D30C8900AFEA64 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9019609825D30CA800AFEA64 /* TableView.swift */,
+				9019609D25D3110C00AFEA64 /* Double.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		901960A225D314DE00AFEA64 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				905FBFD625CFC3C10079022B /* ImageTableViewCell.xib */,
+				905FBFE625CFC5740079022B /* TitleDetailTableViewCell.xib */,
+				9033066B25CFFEF2001393F1 /* ImageTitleDescriptionTableViewCell.xib */,
+				901960A325D3162D00AFEA64 /* ButtonTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		901960A825D3173A00AFEA64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				90429E4125CB131200F7E4D8 /* ViewControllers */,
+				907B885025CB0B24008E7D0B /* Protocols */,
+				9080403925CB0FF800C20A70 /* Coordinators */,
+				905FBFCC25CFC3810079022B /* Cells */,
+				9044A72225CEE4ED00CD8671 /* Model */,
+				9044A71E25CEA37200CD8671 /* ViewModels */,
+				9044A71925CEA2A300CD8671 /* Repository */,
+				9019609725D30C8900AFEA64 /* Extensions */,
+				90C02B0125D188EA00D9E340 /* Strings */,
+				90C02AF825D1852300D9E340 /* Core */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		90429E4125CB131200F7E4D8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				90429E4D25CB140D00F7E4D8 /* SignInViewController.swift */,
+				905FBFF025CFCA300079022B /* ItemDetailsTableViewController.swift */,
+				9033066625CFFE14001393F1 /* CartTableViewController.swift */,
+				90C02A8A25D0071700D9E340 /* MasterTabBarController.swift */,
+				90C02A8F25D00A0A00D9E340 /* HomeViewController.swift */,
+				90C02A9425D00A1B00D9E340 /* ScanViewController.swift */,
+				90C02A9925D00AC800D9E340 /* SpecialsViewController.swift */,
+				90C02A9E25D00AD900D9E340 /* ProductsViewController.swift */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		90429E4225CB133300F7E4D8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				907B882525CB0585008E7D0B /* LaunchScreen.storyboard */,
+				907B882025CB0582008E7D0B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		9044A71925CEA2A300CD8671 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9062096F25D1A2580005A961 /* ProductsRepository.swift */,
+				9062097425D1A30A0005A961 /* IProductsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		9044A71E25CEA37200CD8671 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				906209BF25D212E60005A961 /* ScanViewModel.swift */,
+				90620A9125D230DC0005A961 /* CartViewModel.swift */,
+				901960C025D31FDA00AFEA64 /* ItemDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9044A72225CEE4ED00CD8671 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				901960B825D3190600AFEA64 /* ProductItem.swift */,
+				906209D025D2265A0005A961 /* CoreData */,
+				905FBFEF25CFC7B50079022B /* DTO */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		905FBFCC25CFC3810079022B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				905FBFCD25CFC39E0079022B /* ImageTableViewCell.swift */,
+				905FBFE125CFC55B0079022B /* TitleDetailTableViewCell.swift */,
+				90C02AA625D0376A00D9E340 /* ImageTitleDescriptionTableViewCell.swift */,
+				901960A925D3177600AFEA64 /* ButtonTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		905FBFD525CFC3A70079022B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				901960A225D314DE00AFEA64 /* Cells */,
+				90429E4225CB133300F7E4D8 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		905FBFEF25CFC7B50079022B /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		906209D025D2265A0005A961 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				90620A1125D22A840005A961 /* Products.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		906209D425D226710005A961 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				906209D625D226960005A961 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		907B880E25CB0582008E7D0B = {
+			isa = PBXGroup;
+			children = (
+				907B881925CB0582008E7D0B /* IkhokhaStore */,
+				907B883025CB0586008E7D0B /* IkhokhaStoreTests */,
+				907B883B25CB0586008E7D0B /* IkhokhaStoreUITests */,
+				907B881825CB0582008E7D0B /* Products */,
+				86D4CA4C7DCC440E5DB5300F /* Pods */,
+				126DEC6B3FE41A43DE8307F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		907B881825CB0582008E7D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				907B881725CB0582008E7D0B /* IkhokhaStore.app */,
+				907B882D25CB0586008E7D0B /* IkhokhaStoreTests.xctest */,
+				907B883825CB0586008E7D0B /* IkhokhaStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		907B881925CB0582008E7D0B /* IkhokhaStore */ = {
+			isa = PBXGroup;
+			children = (
+				901960A825D3173A00AFEA64 /* Source */,
+				905FBFD525CFC3A70079022B /* Resources */,
+				90429E4325CB13B400F7E4D8 /* AppDelegate.swift */,
+				907B882325CB0585008E7D0B /* Assets.xcassets */,
+				90C02AD225D17CD800D9E340 /* GoogleService-Info.plist */,
+				907B882825CB0585008E7D0B /* Info.plist */,
+			);
+			path = IkhokhaStore;
+			sourceTree = "<group>";
+		};
+		907B883025CB0586008E7D0B /* IkhokhaStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				90DBEE9825D39426001F6385 /* Mocks */,
+				90DBEE9025D39419001F6385 /* data.json */,
+				907B883125CB0586008E7D0B /* StoryBoardableTests.swift */,
+				90DBEE7B25D38648001F6385 /* StringTests.swift */,
+				907B883325CB0586008E7D0B /* Info.plist */,
+				90DBEE8625D38C8F001F6385 /* ConstantsTests.swift */,
+				90DBEE8B25D38DE2001F6385 /* CartViewModelTests.swift */,
+			);
+			path = IkhokhaStoreTests;
+			sourceTree = "<group>";
+		};
+		907B883B25CB0586008E7D0B /* IkhokhaStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				907B883C25CB0586008E7D0B /* IkhokhaStoreUITests.swift */,
+				907B883E25CB0586008E7D0B /* Info.plist */,
+			);
+			path = IkhokhaStoreUITests;
+			sourceTree = "<group>";
+		};
+		907B885025CB0B24008E7D0B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				907B885125CB0B3D008E7D0B /* Storyboardable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9080403925CB0FF800C20A70 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				9080403A25CB101600C20A70 /* MainCoordinator.swift */,
+				9062097C25D1B1AD0005A961 /* IMainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		90C02AF825D1852300D9E340 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				906209D425D226710005A961 /* Managers */,
+				90C02AF925D1853F00D9E340 /* Constants.swift */,
+				90C02B0D25D19ABA00D9E340 /* Globals.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		90C02B0125D188EA00D9E340 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				90C02B0925D199E700D9E340 /* AppStrings.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		90DBEE9825D39426001F6385 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				90DBEE9D25D39448001F6385 /* ProductsRepositoryMock.swift */,
+				90DBEED625D39B18001F6385 /* Objects.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		907B881625CB0582008E7D0B /* IkhokhaStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907B884125CB0586008E7D0B /* Build configuration list for PBXNativeTarget "IkhokhaStore" */;
+			buildPhases = (
+				90FFFD7D4F230F96A4B92AC6 /* [CP] Check Pods Manifest.lock */,
+				907B881325CB0582008E7D0B /* Sources */,
+				907B881425CB0582008E7D0B /* Frameworks */,
+				907B881525CB0582008E7D0B /* Resources */,
+				0F401285DA70FC9E932B1A6F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IkhokhaStore;
+			productName = IkhokhaStore;
+			productReference = 907B881725CB0582008E7D0B /* IkhokhaStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		907B882C25CB0586008E7D0B /* IkhokhaStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907B884425CB0586008E7D0B /* Build configuration list for PBXNativeTarget "IkhokhaStoreTests" */;
+			buildPhases = (
+				D679B52FA4371C1A7473D641 /* [CP] Check Pods Manifest.lock */,
+				90DBEE1C25D37D48001F6385 /* ShellScript */,
+				907B882925CB0586008E7D0B /* Sources */,
+				907B882A25CB0586008E7D0B /* Frameworks */,
+				907B882B25CB0586008E7D0B /* Resources */,
+				F2CEC4E177F346A7871943B7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907B882F25CB0586008E7D0B /* PBXTargetDependency */,
+			);
+			name = IkhokhaStoreTests;
+			productName = IkhokhaStoreTests;
+			productReference = 907B882D25CB0586008E7D0B /* IkhokhaStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		907B883725CB0586008E7D0B /* IkhokhaStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 907B884725CB0586008E7D0B /* Build configuration list for PBXNativeTarget "IkhokhaStoreUITests" */;
+			buildPhases = (
+				4FBDE2B1C2240AA8EA8B29E1 /* [CP] Check Pods Manifest.lock */,
+				907B883425CB0586008E7D0B /* Sources */,
+				907B883525CB0586008E7D0B /* Frameworks */,
+				907B883625CB0586008E7D0B /* Resources */,
+				CC9954E54A3DE874537CA2E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				907B883A25CB0586008E7D0B /* PBXTargetDependency */,
+			);
+			name = IkhokhaStoreUITests;
+			productName = IkhokhaStoreUITests;
+			productReference = 907B883825CB0586008E7D0B /* IkhokhaStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		907B880F25CB0582008E7D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					907B881625CB0582008E7D0B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					907B882C25CB0586008E7D0B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 907B881625CB0582008E7D0B;
+					};
+					907B883725CB0586008E7D0B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 907B881625CB0582008E7D0B;
+					};
+				};
+			};
+			buildConfigurationList = 907B881225CB0582008E7D0B /* Build configuration list for PBXProject "IkhokhaStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 907B880E25CB0582008E7D0B;
+			productRefGroup = 907B881825CB0582008E7D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				907B881625CB0582008E7D0B /* IkhokhaStore */,
+				907B882C25CB0586008E7D0B /* IkhokhaStoreTests */,
+				907B883725CB0586008E7D0B /* IkhokhaStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		907B881525CB0582008E7D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907B882725CB0585008E7D0B /* LaunchScreen.storyboard in Resources */,
+				90C02AD325D17CD800D9E340 /* GoogleService-Info.plist in Resources */,
+				905FBFD725CFC3C10079022B /* ImageTableViewCell.xib in Resources */,
+				9033066C25CFFEF2001393F1 /* ImageTitleDescriptionTableViewCell.xib in Resources */,
+				901960A425D3162D00AFEA64 /* ButtonTableViewCell.xib in Resources */,
+				905FBFE725CFC5740079022B /* TitleDetailTableViewCell.xib in Resources */,
+				90C02B0725D199E700D9E340 /* AppStrings.strings in Resources */,
+				907B882425CB0585008E7D0B /* Assets.xcassets in Resources */,
+				907B882225CB0582008E7D0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907B882B25CB0586008E7D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DBEE9125D39419001F6385 /* data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907B883625CB0586008E7D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F401285DA70FC9E932B1A6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStore/Pods-IkhokhaStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStore/Pods-IkhokhaStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStore/Pods-IkhokhaStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FBDE2B1C2240AA8EA8B29E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IkhokhaStore-IkhokhaStoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DBEE1C25D37D48001F6385 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/ProductItem.swift\"\n";
+		};
+		90FFFD7D4F230F96A4B92AC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IkhokhaStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9954E54A3DE874537CA2E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStore-IkhokhaStoreUITests/Pods-IkhokhaStore-IkhokhaStoreUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStore-IkhokhaStoreUITests/Pods-IkhokhaStore-IkhokhaStoreUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStore-IkhokhaStoreUITests/Pods-IkhokhaStore-IkhokhaStoreUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D679B52FA4371C1A7473D641 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IkhokhaStoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CEC4E177F346A7871943B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStoreTests/Pods-IkhokhaStoreTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStoreTests/Pods-IkhokhaStoreTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IkhokhaStoreTests/Pods-IkhokhaStoreTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		907B881325CB0582008E7D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C02A8B25D0071700D9E340 /* MasterTabBarController.swift in Sources */,
+				9062096825D19FC40005A961 /* ItemDetailsTableViewController.swift in Sources */,
+				9062097D25D1B1AD0005A961 /* IMainCoordinator.swift in Sources */,
+				9019609E25D3110C00AFEA64 /* Double.swift in Sources */,
+				905FBFE225CFC55B0079022B /* TitleDetailTableViewCell.swift in Sources */,
+				90429E4425CB13B400F7E4D8 /* AppDelegate.swift in Sources */,
+				9019609925D30CA800AFEA64 /* TableView.swift in Sources */,
+				901960B925D3190600AFEA64 /* ProductItem.swift in Sources */,
+				90C02AFA25D1853F00D9E340 /* Constants.swift in Sources */,
+				901960B425D3189300AFEA64 /* ButtonTableViewCell.swift in Sources */,
+				90429E4E25CB140D00F7E4D8 /* SignInViewController.swift in Sources */,
+				907B885225CB0B3D008E7D0B /* Storyboardable.swift in Sources */,
+				9062097025D1A2590005A961 /* ProductsRepository.swift in Sources */,
+				906209D725D226960005A961 /* CoreDataManager.swift in Sources */,
+				90C02B0E25D19ABA00D9E340 /* Globals.swift in Sources */,
+				90620A9225D230DC0005A961 /* CartViewModel.swift in Sources */,
+				90C02A9025D00A0A00D9E340 /* HomeViewController.swift in Sources */,
+				906209B725D210FF0005A961 /* SpecialsViewController.swift in Sources */,
+				905FBFCE25CFC39E0079022B /* ImageTableViewCell.swift in Sources */,
+				906209BB25D211030005A961 /* ProductsViewController.swift in Sources */,
+				90620A1325D22A840005A961 /* Products.xcdatamodeld in Sources */,
+				9062097525D1A30A0005A961 /* IProductsRepository.swift in Sources */,
+				9033066725CFFE14001393F1 /* CartTableViewController.swift in Sources */,
+				9080403B25CB101600C20A70 /* MainCoordinator.swift in Sources */,
+				90C02AA725D0376A00D9E340 /* ImageTitleDescriptionTableViewCell.swift in Sources */,
+				906209C025D212E60005A961 /* ScanViewModel.swift in Sources */,
+				901960C125D31FDA00AFEA64 /* ItemDetailsViewModel.swift in Sources */,
+				90C02A9525D00A1B00D9E340 /* ScanViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907B882925CB0586008E7D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DBEEA525D39489001F6385 /* ProductItem.swift in Sources */,
+				90DBEE8C25D38DE2001F6385 /* CartViewModelTests.swift in Sources */,
+				90DBEE7C25D38648001F6385 /* StringTests.swift in Sources */,
+				90DBEED725D39B18001F6385 /* Objects.swift in Sources */,
+				90DBEECA25D397C6001F6385 /* ProductsRepositoryMock.swift in Sources */,
+				90DBEE8725D38C8F001F6385 /* ConstantsTests.swift in Sources */,
+				907B883225CB0586008E7D0B /* StoryBoardableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907B883425CB0586008E7D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				907B883D25CB0586008E7D0B /* IkhokhaStoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		907B882F25CB0586008E7D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907B881625CB0582008E7D0B /* IkhokhaStore */;
+			targetProxy = 907B882E25CB0586008E7D0B /* PBXContainerItemProxy */;
+		};
+		907B883A25CB0586008E7D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 907B881625CB0582008E7D0B /* IkhokhaStore */;
+			targetProxy = 907B883925CB0586008E7D0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		907B882025CB0582008E7D0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907B882125CB0582008E7D0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		907B882525CB0585008E7D0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907B882625CB0585008E7D0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90C02B0925D199E700D9E340 /* AppStrings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C02B0825D199E700D9E340 /* en */,
+			);
+			name = AppStrings.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		907B883F25CB0586008E7D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		907B884025CB0586008E7D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		907B884225CB0586008E7D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F06CD5188B8BF50F6972E9 /* Pods-IkhokhaStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L467TVNN7D;
+				INFOPLIST_FILE = IkhokhaStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikhokhaStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		907B884325CB0586008E7D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08A9218E99E38A6CA43E334 /* Pods-IkhokhaStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L467TVNN7D;
+				INFOPLIST_FILE = IkhokhaStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikhokhaStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		907B884525CB0586008E7D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D8E15E555516A6D3E60391 /* Pods-IkhokhaStoreTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L467TVNN7D;
+				INFOPLIST_FILE = IkhokhaStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gontse.IkhokhaStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IkhokhaStore.app/IkhokhaStore";
+			};
+			name = Debug;
+		};
+		907B884625CB0586008E7D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80566F876F00BF2BACCD5750 /* Pods-IkhokhaStoreTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L467TVNN7D;
+				INFOPLIST_FILE = IkhokhaStoreTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gontse.IkhokhaStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IkhokhaStore.app/IkhokhaStore";
+			};
+			name = Release;
+		};
+		907B884825CB0586008E7D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9052FDC2C7F562E35128A0B /* Pods-IkhokhaStore-IkhokhaStoreUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L467TVNN7D;
+				INFOPLIST_FILE = IkhokhaStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gontse.IkhokhaStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IkhokhaStore;
+			};
+			name = Debug;
+		};
+		907B884925CB0586008E7D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC91DF7EA1B3485B4E1504C4 /* Pods-IkhokhaStore-IkhokhaStoreUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L467TVNN7D;
+				INFOPLIST_FILE = IkhokhaStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gontse.IkhokhaStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IkhokhaStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		907B881225CB0582008E7D0B /* Build configuration list for PBXProject "IkhokhaStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907B883F25CB0586008E7D0B /* Debug */,
+				907B884025CB0586008E7D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907B884125CB0586008E7D0B /* Build configuration list for PBXNativeTarget "IkhokhaStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907B884225CB0586008E7D0B /* Debug */,
+				907B884325CB0586008E7D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907B884425CB0586008E7D0B /* Build configuration list for PBXNativeTarget "IkhokhaStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907B884525CB0586008E7D0B /* Debug */,
+				907B884625CB0586008E7D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		907B884725CB0586008E7D0B /* Build configuration list for PBXNativeTarget "IkhokhaStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907B884825CB0586008E7D0B /* Debug */,
+				907B884925CB0586008E7D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		90620A1125D22A840005A961 /* Products.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				90620A1225D22A840005A961 /* Products.xcdatamodel */,
+			);
+			currentVersion = 90620A1225D22A840005A961 /* Products.xcdatamodel */;
+			path = Products.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 907B880F25CB0582008E7D0B /* Project object */;
+}

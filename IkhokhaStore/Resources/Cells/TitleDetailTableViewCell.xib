@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TitleDetailCell" rowHeight="77" id="cnG-JF-TeE" customClass="TitleDetailTableViewCell" customModule="IkhokhaStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="483" height="77"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cnG-JF-TeE" id="vMj-Iv-0S0">
+                <rect key="frame" x="0.0" y="0.0" width="483" height="77"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qtd-06-8Zz">
+                        <rect key="frame" x="15" y="15" width="453" height="47"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bp-E3-mX9">
+                                <rect key="frame" x="0.0" y="0.0" width="453" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xaT-ak-fa5">
+                                <rect key="frame" x="0.0" y="26" width="453" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qtd-06-8Zz" secondAttribute="trailing" constant="15" id="QbO-Gw-g8E"/>
+                    <constraint firstAttribute="bottom" secondItem="qtd-06-8Zz" secondAttribute="bottom" constant="15" id="Vgy-W6-aMb"/>
+                    <constraint firstItem="qtd-06-8Zz" firstAttribute="leading" secondItem="vMj-Iv-0S0" secondAttribute="leading" constant="15" id="YKC-h3-R3B"/>
+                    <constraint firstItem="qtd-06-8Zz" firstAttribute="top" secondItem="vMj-Iv-0S0" secondAttribute="top" constant="15" id="nfX-6v-Yen"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="itemDescriptionLabel" destination="xaT-ak-fa5" id="SPh-TA-1Xu"/>
+                <outlet property="itemTitleLabel" destination="2bp-E3-mX9" id="8EQ-fx-h5Q"/>
+            </connections>
+            <point key="canvasLocation" x="-47.10144927536232" y="38.504464285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
